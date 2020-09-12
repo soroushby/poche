@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "poche"
+    }
+  },
+  "defaultProject": "poche",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,56 @@
+mat-sidenav-container,
+mat-sidenav,
+mat-sidenav-content {
+  height: 100%;
+}
+
+.res {
+  position: absolute;
+  background-color: transparent;
+  z-index: 20;
+}
+
+a {
+  text-decoration: none;
+  color: #0d1547;
+  list-style-type: none;
+}
+
+a:hover {
+  //color: #ff8671;
+  color: #1e2874;
+}
+
+li {
+  list-style: none;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.sidenav {
+  width: 20rem;
+  background: linear-gradient(#0d1547, #421964c9);
+}
+
+.example-icon {
+  color: #0d1547;
+}
+
+.matlist {
+  color: #f2edeb;
+}
+
+mat-list-item:hover {
+  //color: #ff8671;
+  color: #aa7dce;
+}
+
+.example-icon1 {
+  margin-left: 2rem;
+}
+
+.active {
+  border-bottom: 1px #0d1547 solid;
+}
