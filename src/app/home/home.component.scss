@@ -27,6 +27,7 @@
 
 .gradient {
   background-image: linear-gradient(to right, #0d1547, #421964);
+  margin-bottom: 15rem;
 }
 .mat-display-3 {
   font-family: iranyekan;
@@ -43,6 +44,75 @@
 }
 
 .main2 {
+  background-color: #f2edeb;
+  min-height: 50vh;
+
+  &-card {
+    width: 70%;
+    height: 60%;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    &__img {
+      background-image: url(../../assets/alex-wong-l5Tzv1alcps-unsplash.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      min-height: 30rem;
+      min-width: 50rem;
+    }
+
+    &__content {
+      color: #aa7dce;
+      font-size: 2rem;
+      text-align: center;
+      line-height: 3rem;
+      //margin-top: 50rem;
+    }
+
+    mat-card-title {
+      color: #421964;
+    }
+  }
+
+  &-btn-position {
+    margin-top: 2rem;
+  }
+
+  &-btn:link,
+  &-btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.9s;
+    letter-spacing: 0.8rem;
+  }
+
+  &-btn:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
+
+  &-btn:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+
+  &-btn-white {
+    //background-color: rgba(7, 6, 44, 0.8);
+    background-color: #421964;
+    color: #f2edeb;
+  }
+
+  &-btn {
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+}
+
+.main3 {
   background-image: linear-gradient(#0d1547b6, #0d1547b7),
     url(../../assets/simon-zhu-4hluhoRJokI-unsplash.jpg);
   background-repeat: no-repeat;
@@ -72,7 +142,7 @@
   }
 }
 
-.main3 {
+.main4 {
   background-image: linear-gradient(#f2edeb, #f2edeb);
 
   background-repeat: no-repeat;

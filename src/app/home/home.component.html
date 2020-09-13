@@ -24,13 +24,52 @@
         fxLayoutGap="1rem"
       >
         <mat-card-header fxLayoutAlign="center center">
+          <mat-card-title><h1>Portfolios</h1></mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content class="main2-card__content">
+          Our global team, paired with our methods & scale, work with you to
+          manage, evolve, and continuously modernize your Website. Our global
+          team, paired with our methods & scale, work with you to manage,
+        </mat-card-content>
+
+        <div class="main2-btn-position" fxLayoutAlign="start center">
+          <a routerLink="/portfolio" class="main2-btn main2-btn-white"
+            >see more &rarr;</a
+          >
+        </div>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+      <mat-card
+        class="main2-card__img"
+        fxLayoutAlign="start center "
+        fxLayoutGap="1rem"
+        fxLayout="column"
+      >
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+
+<div class="main3">
+  <mat-grid-list cols="2" rowHeight="1:1" gutterSize="5rem" fxHide.lt-md>
+    <mat-grid-tile>
+      <mat-card
+        class="main3-card"
+        fxLayoutAlign="start center"
+        fxLayout="column"
+        fxLayoutGap="1rem"
+      >
+        <mat-card-header fxLayoutAlign="center center">
           <mat-card-title>Web Design & Development</mat-card-title>
           <mat-card-subtitle fxLayoutAlign="center center"
             >USER FRIENDLY DESIGN</mat-card-subtitle
           >
         </mat-card-header>
 
-        <mat-card-content class="main2-card__content">
+        <mat-card-content class="main3-card__content">
           Our global team, paired with our methods & scale, work with you to
           manage, evolve, and continuously modernize your Website.
         </mat-card-content>
@@ -39,7 +78,7 @@
 
     <mat-grid-tile>
       <mat-card
-        class="main2-card"
+        class="main3-card"
         fxLayoutAlign="start center "
         fxLayoutGap="1rem"
         fxLayout="column"
@@ -55,7 +94,7 @@
 
         <mat-card-content
           fxLayoutAlign="center center"
-          class="main2-card__content"
+          class="main3-card__content"
         >
           We specialize in building eCommerce websites that drive more sales by
           providing customers with a seamless, omni-channel shopping experience.
@@ -65,11 +104,11 @@
   </mat-grid-list>
 </div>
 
-<div class="main3">
-  <mat-grid-list class="main3-grid-list" cols="2" fxHide.lt-md rowHeight="2:1">
+<div class="main4">
+  <mat-grid-list class="main4-grid-list" cols="2" fxHide.lt-md rowHeight="2:1">
     <mat-grid-tile>
       <mat-card
-        class="main3-card"
+        class="main4-card"
         fxLayoutAlign="start center "
         fxLayoutGap="1rem"
         fxLayout="column"
@@ -78,7 +117,7 @@
           <mat-card-title><h3>تماس با ما</h3></mat-card-title>
         </mat-card-header>
 
-        <mat-card-content class="main3-grid-list2">
+        <mat-card-content class="main4-grid-list2">
           <div fxLayoutGap="1rem" fxLayoutAlign="start center ">
             <img
               src="../../assets/mail-line (1).svg"
@@ -102,7 +141,7 @@
 
     <mat-grid-tile>
       <mat-card
-        class="main3-card"
+        class="main4-card"
         fxLayoutAlign="start end"
         fxLayoutGap="1rem"
         fxLayout="column"
@@ -111,7 +150,7 @@
           <mat-card-title><h3>درباره ما</h3></mat-card-title>
         </mat-card-header>
 
-        <mat-card-content class="main3-grid-list">
+        <mat-card-content class="main4-grid-list">
           <p>
             گروه طراحی پوشه متشكل از گروهى از معماران و طراحان داخلى مى باشد كه
             از سال ١٣٩٧ شروع به فعاليت كرده است و با هدف طراحى و اجراى دكوراسيون
