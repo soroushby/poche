@@ -12,7 +12,7 @@ mat-sidenav-content {
 
 a {
   text-decoration: none;
-  color: #0d1547;
+  color: #f2edeb;
   list-style-type: none;
 }
 
@@ -31,11 +31,11 @@ li {
 
 .sidenav {
   width: 20rem;
-  background: linear-gradient(#0d1547, #421964c9);
+  background: linear-gradient(#0d1547, #f2edeb79);
 }
 
 .example-icon {
-  color: #0d1547;
+  color: #f2edeb;
 }
 
 .matlist {
@@ -52,5 +52,11 @@ mat-list-item:hover {
 }
 
 .active {
-  border-bottom: 1px #0d1547 solid;
+  border-bottom: 1px #f2edeb solid;
+}
+
+.nav {
+  &-list {
+    font-family: iranyekan;
+  }
 }

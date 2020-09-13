@@ -27,10 +27,22 @@
         mat-icon-button
         class="example-icon"
         aria-label="Example icon-button with menu icon"
+        fxHide.gt-md
       >
         <mat-icon>menu</mat-icon>
       </button>
-
+      <button
+        mat-icon-button
+        class="example-icon1"
+        aria-label="Example icon-button with phone icon"
+      >
+        <a
+          fxLayoutAlign="center center"
+          href="https://wa.me/00989121979628/?text=urlencodedtext"
+          ><mat-icon>phone</mat-icon></a
+        >
+      </button>
+      <div fxFlex></div>
       <ul role="list" fxLayout="row" fxLayoutGap="3.5rem">
         <li fxHide.lt-md>
           <a
@@ -38,7 +50,7 @@
             routerLink="/home"
             routerLinkActive="active"
             class="nav-list"
-            >Home</a
+            >خانه</a
           >
         </li>
         <li fxHide.lt-md>
@@ -47,7 +59,7 @@
             routerLink="/portfolio"
             routerLinkActive="active"
             class="nav-list"
-            >Portfolios</a
+            >پروژه‌ها</a
           >
         </li>
       </ul>
