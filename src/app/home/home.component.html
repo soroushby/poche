@@ -1,15 +1,10 @@
-<div class="main" fxLayout="row">
+<div class="main" fxLayout="column">
   <div fxLayoutAlign="center center" fxLayout="column" fxFlex>
-    <!-- <div class="main-bg-video">
-      <video playsinline autoplay muted loop class="main-bg-video__content">
-        <source src="../../assets/New-York-Sky.mp4" type="video/mp4" />
-        Your browser isn't supported!
-      </video>
-    </div> -->
-
-    <!-- <h1 class="mat-display-4 gradient">Designing with balance.</h1> -->
-    <h1 class="mat-display-3 gradient">
-      هر موقعيت جديد، مستلزم يك معمارى جديد است
+    <h1
+      class="mat-display-3 gradient heading-primary"
+      fxLayoutAlign="center center"
+    >
+      <span> هر موقعيت جديد، مستلزم يك معمارى جديد است</span>
     </h1>
   </div>
 </div>
@@ -24,7 +19,7 @@
         fxLayoutGap="1rem"
       >
         <mat-card-header fxLayoutAlign="center center">
-          <mat-card-title><h1>Portfolios</h1></mat-card-title>
+          <mat-card-title><h1>پروژه‌ها</h1></mat-card-title>
         </mat-card-header>
 
         <mat-card-content class="main2-card__content">
@@ -35,7 +30,7 @@
 
         <div class="main2-btn-position" fxLayoutAlign="start center">
           <a routerLink="/portfolio" class="main2-btn main2-btn-white"
-            >see more &rarr;</a
+            >بیشتر ببینید &rarr;</a
           >
         </div>
       </mat-card>
@@ -122,18 +117,18 @@
             <img
               src="../../assets/mail-line (1).svg"
               alt="computer icon"
-            /><span>emitgroup.web@gmail.com</span>
+            /><span>test@gmail.com</span>
           </div>
           <div fxLayoutGap="1rem" fxLayoutAlign="start center ">
             <img
               src="../../assets/whatsapp-line.svg"
               alt="computer icon"
-            /><span>+1(403)9032374</span>
+            /><span>09121979628</span>
           </div>
 
           <div fxLayoutGap="1rem" fxLayoutAlign="start center ">
             <img src="../../assets/instagram-line.svg" alt="computer icon" />
-            <span>emit.group</span>
+            <span>pochegroupe</span>
           </div>
         </mat-card-content>
       </mat-card>
@@ -161,4 +156,10 @@
       </mat-card>
     </mat-grid-tile>
   </mat-grid-list>
+  <p fxLayout="row" fxLayoutAlign="center center">
+    <span fxLayout="row" fxLayoutAlign="center center"
+      ><mat-icon fxLayoutAlign="center center">copyright</mat-icon>2020 -
+      Designed by emit</span
+    >
+  </p>
 </div>
